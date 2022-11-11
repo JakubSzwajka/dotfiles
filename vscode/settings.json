@@ -1,0 +1,109 @@
+{
+	"[xml]": {
+		"editor.defaultFormatter": "redhat.vscode-xml"
+	},
+	"diffEditor.ignoreTrimWhitespace": false,
+	"[html]": {
+		"editor.defaultFormatter": "mohd-akram.vscode-html-format"
+	},
+	"python.linting.pylintPath": "--load-plugins=pylint_django",
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"python.languageServer": "Pylance",
+	"python.analysis.extraPaths": [
+		"python.analysis.plate_recognition",
+		"car_centroid_tracker"
+	],
+	"processing.path": "C:\\processing-3.5.4\\processing-java.exe",
+	"explorer.compactFolders": false,
+	"terminal.integrated.rendererType": "dom",
+	"terminal.integrated.env.windows": {
+		"PYTHONPATH": "${env:PYTHONPATH}:${workspaceFolder}/src"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"python.showStartPage": false,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
+	"[python]": {
+		"editor.wordBasedSuggestions": false
+	},
+	"yaml.schemas": {
+		"file:///Users/jakubszwajka/.vscode/extensions/atlassian.atlascode-2.10.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+	"redhat.telemetry.enabled": false,
+	"atlascode.bitbucket.enabled": true,
+	"atlascode.jira.enabled": false,
+	"logViewer.logLevel": "info",
+	"thunder-client.codeSnippetLanguage": "python-requests",
+	"remote.SSH.remotePlatform": {
+		"taiga02": "linux",
+		"taiga01": "linux"
+	},
+	"editor.cursorBlinking": "phase",
+	"editor.formatOnType": true,
+	"workbench.tree.renderIndentGuides": "always",
+	"workbench.editor.closeOnFileDelete": true,
+	"zenMode.hideTabs": false,
+	"http.proxySupport": "off",
+	"security.workspace.trust.enabled": false,
+	"remote.SSH.remoteServerListenOnSocket": true,
+	"remote.autoForwardPorts": false,
+	"sshfs.configs": [
+		{
+			"name": "robertszwajka",
+			"host": "robertszwajka.atthost24.pl",
+			"port": 6022,
+			"username": "robertszwajka"
+		}
+	],
+	"maven.executable.path": "/Applications/apache-maven-3.8.4/bin/mvn",
+	"maven.terminal.useJavaHome": true,
+	"maven.view": "hierarchical",
+	"xml.java.home": "/usr/bin",
+	"solidity.packageDefaultDependenciesContractsDirectory": "",
+	"solidity.packageDefaultDependenciesDirectory": "node_modules",
+	"projectManager.git.baseFolders": ["/Users/jakubszwajka/DEV/"],
+	"eslint.alwaysShowStatus": true,
+	"openapi.approvedHostnames": ["json-schema.org"],
+	"terminal.external.osxExec": "warp.app",
+	"window.commandCenter": true,
+	"thunder-client.htmlView": "Preview",
+	"breadcrumbs.icons": false,
+	"workbench.tree.indent": 24,
+	"workbench.editor.autoLockGroups": {
+		"interactive": true
+	},
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.limit.enabled": true,
+	"workbench.editor.splitInGroupLayout": "vertical",
+	"workbench.editor.wrapTabs": true,
+	"zenMode.hideLineNumbers": false,
+	"window.clickThroughInactive": false,
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"window.nativeTabs": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.formatOnSave": true,
+	"prettier.endOfLine": "auto",
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"editor.guides.bracketPairs": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"settingsSync.keybindingsPerPlatform": false,
+	"testing.automaticallyOpenPeekView": "failureAnywhere",
+	"workbench.colorTheme": "Bearded Theme Black & Emerald",
+	"window.zoomLevel": 1,
+	"testing.openTesting": "openOnTestFailure",
+	"python.testing.pytestEnabled": true,
+	"python.testing.unittestEnabled": false,
+	"python.testing.pytestArgs": ["--rootdir=."],
+	"python.testing.cwd": "src",
+	"workbench.startupEditor": "none"
+}
