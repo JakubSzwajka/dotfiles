@@ -8,11 +8,3 @@ This Repository Dotfiles contain my personal config files. Here you'll find conf
 ```
 ./install.sh
 ```
-
-2. Add link to your `.zshrc`
-
-```
-[[ -f ~/aliases.zsh ]] && source ~/aliases.zsh
-```
-
-3. Restart session
