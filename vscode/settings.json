@@ -65,9 +65,13 @@
 	"xml.java.home": "/usr/bin",
 	"solidity.packageDefaultDependenciesContractsDirectory": "",
 	"solidity.packageDefaultDependenciesDirectory": "node_modules",
-	"projectManager.git.baseFolders": ["/Users/jakubszwajka/DEV/"],
+	"projectManager.git.baseFolders": [
+		"/Users/jakubszwajka/DEV/"
+	],
 	"eslint.alwaysShowStatus": true,
-	"openapi.approvedHostnames": ["json-schema.org"],
+	"openapi.approvedHostnames": [
+		"json-schema.org"
+	],
 	"terminal.external.osxExec": "warp.app",
 	"window.commandCenter": true,
 	"thunder-client.htmlView": "Preview",
@@ -103,7 +107,8 @@
 	"testing.openTesting": "openOnTestFailure",
 	"python.testing.pytestEnabled": true,
 	"python.testing.unittestEnabled": false,
-	"python.testing.pytestArgs": ["--rootdir=."],
-	"python.testing.cwd": "src",
+	"python.testing.pytestArgs": [
+		"--rootdir=."
+	],
 	"workbench.startupEditor": "none"
 }
