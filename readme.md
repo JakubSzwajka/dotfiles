@@ -8,3 +8,10 @@ This Repository Dotfiles contain my personal config files. Here you'll find conf
 ```
 ./install.sh
 ```
+
+
+
+## Other resources on dotfiles
+
+* https://github.com/webpro/awesome-dotfiles
+* https://dotfiles.github.io/inspiration/
