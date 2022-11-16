@@ -103,7 +103,6 @@
 	"settingsSync.keybindingsPerPlatform": false,
 	"testing.automaticallyOpenPeekView": "failureAnywhere",
 	"workbench.colorTheme": "Bearded Theme Black & Emerald",
-	"window.zoomLevel": 1,
 	"testing.openTesting": "openOnTestFailure",
 	"python.testing.pytestEnabled": true,
 	"python.testing.unittestEnabled": false,
