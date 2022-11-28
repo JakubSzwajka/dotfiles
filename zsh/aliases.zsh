@@ -21,3 +21,7 @@ alias ylm='yarn lint $(gsm)'
 
 alias glc='mypy . && flake8 . && globality-black . --diff'
 alias glb='globality-black'
+
+
+function henri { integration-testing --branch "$1" --drone-token "$2"  --github-token $GITHUB_TOKEN };
+    
