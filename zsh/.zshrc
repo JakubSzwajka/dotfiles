@@ -7,6 +7,9 @@
 # install python 
 [[ -f ~/config/python.zsh ]] && source ~/config/python.zsh
 
+#install rust
+[[ -f ~/config/rust.zsh ]] && source ~/config/rust.zsh
+
 # install go
 [[ -f ~/config/go.zsh ]] && source ~/config/go.zsh
 
