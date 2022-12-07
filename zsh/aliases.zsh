@@ -23,7 +23,12 @@ alias glb='globality-black'
 function henri { integration-testing --branch "$1" --drone-token "$2" --github-token $GITHUB_TOKEN; }
 
 function drop_and_restore {
-    dropdb "$1"_db
-    createdb -p 5432 -U postgres -O "$1" "$1"_db
-    pg_restore -d "$1"_db <"$1".sql
+    echo "$1.sql"
+    if [ -f "$1.sql" ]; then
+        dropdb "$1"_db && if [ $? -eq 0 ]; then echo "DB dropped ✅"; else echo "DB drop failed ❌"; fi
+        createdb -p 5432 -U postgres -O "$1" "$1"_db && if [ $? -eq 0 ]; then echo "DB created ✅"; else echo "DB create failed ❌"; fi
+        pg_restore -d "$1"_db <"$1".sql && if [ $? -eq 0 ]; then echo "DB restored ✅"; else echo "DB restore failed ❌"; fi
+    else
+        echo "File " $1".sql does not exists."
+    fi
 }
