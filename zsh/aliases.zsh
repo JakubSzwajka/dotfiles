@@ -6,7 +6,6 @@ alias cat='bat'
 
 alias s='source ~/.zshrc'
 
-
 # -- git --
 alias g='git'
 alias gs='git status'
@@ -15,13 +14,16 @@ alias gd='git diff'
 alias gc='git commit'
 alias gdc='bat --diff'
 
-
-# -- work aliases --- 
+# -- work aliases ---
 alias ylm='yarn lint $(gsm)'
 
 alias glc='mypy . && flake8 . && globality-black . --diff'
 alias glb='globality-black'
 
+function henri { integration-testing --branch "$1" --drone-token "$2" --github-token $GITHUB_TOKEN; }
 
-function henri { integration-testing --branch "$1" --drone-token "$2"  --github-token $GITHUB_TOKEN };
-    
+function drop_and_restore {
+    dropdb "$1"_db
+    createdb -p 5432 -U postgres -O "$1" "$1"_db
+    pg_restore -d "$1"_db <"$1".sql
+}
